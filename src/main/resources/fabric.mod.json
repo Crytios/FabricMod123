@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mod123",
+  "version": "${version}",
+
+  "name": "MOD123",
+  "description": "Mod to Increase Ender Pearl drop rates,blaze rod drop rates , custom keybinds etc",
+  "authors": [
+    "Crytios",
+    "Multi76"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.Phoenix76.MOD123.Main"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "fabric-key-binding-api-v1": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
